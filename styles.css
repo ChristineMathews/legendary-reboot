@@ -1,0 +1,54 @@
+p {
+    color: blue;
+  }
+h1 {
+    color: red;
+    border: 2px solid powderblue;
+  }
+  table,
+  td {
+      border: 1px solid #333;
+  }
+  
+  thead{
+      background-color: #333;
+      color: #fff;
+  }
+
+  .youtube{
+    background-color: rgb(221, 32, 32);
+    color: white;
+    border: none;
+   padding: 10px 10px 10px 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .youtube:hover{
+  opacity: 0.5;
+  }
+  .youtube:active{
+    opacity: 0.2;
+    }
+
+    .tweet{
+      background-color: rgb(38, 118, 224);
+      color: white;
+      border: none;
+      box-shadow: 10px 10px 10px rgba(6, 6, 6,0.6);
+      height: 35px;
+      width: 80px;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-radius: 35px;
+      cursor: pointer;
+      transition: opacity 0.15s;
+      margin-left: 20px;
+    }
+
+  .pagination {
+    display: inline-block;
+  }
+  
